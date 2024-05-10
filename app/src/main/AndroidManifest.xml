@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <application
+        android:allowBackup="true"
+
+        android:label="@string/LibraryMGtSys"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.LibraryMGtSys.serachBooks" />
+        <activity android:name="com.example.LibraryMGtSys.lending" />
+        <activity android:name="com.example.LibraryMGtSys.manageBranch" />
+        <activity android:name="com.example.LibraryMGtSys.managePublisher" />
+        <activity android:name="com.example.LibraryMGtSys.manageBooks" />
+        <activity android:name="com.example.LibraryMGtSys.memberMenu" />
+        <activity android:name="com.example.LibraryMGtSys.memberLogin" />
+        <activity android:name="com.example.LibraryMGtSys.adminLogin" />
+        <activity android:name="com.example.LibraryMGtSys.signup" />
+        <activity android:name="com.example.LibraryMGtSys.adminMenu" />
+        <activity android:name="com.example.LibraryMGtSys.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
